@@ -69,6 +69,12 @@ Models Tested:
 - Bagging Classifier
 - Bernouilli NB
 
+Django API:
+- Open cmd
+- Go to the repository of the Django API named 'mysite'
+- Execute with this command: python manage.py runserver
+- Go on internet and enter this link: http://127.0.0.1:8000/
+
 Conclusions:
 Customizing hyperparameters is a good idea to improve the model and scaling is not always necessary, it depends on the dataset.
 Finally, the best model is the RandomForestClassifier with hyperparameters boosted. (This value can change due to the split if we re-run the model but the 4 best models are always the same and the boost of hyperparameters is always efficient).
